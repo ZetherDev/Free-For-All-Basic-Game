@@ -1,0 +1,7 @@
+name: FFA
+main: FFA\Loader
+api: [3.2.3]
+version: 1.0.0
+author: iVryMaz
+description: Plugin for free use, you can use on your servers
+ 
