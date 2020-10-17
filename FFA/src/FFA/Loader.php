@@ -24,7 +24,7 @@ use RuntimeException;
 
 class Loader extends PluginBase implements Listener {
 	
-	/** @var Loader[] */
+	/** @var Loader */
 	protected static $pluginLogger = null;
 	
 	public function onLoad(){
@@ -42,7 +42,7 @@ class Loader extends PluginBase implements Listener {
 	}
 	
 	/**
-	 * @return Loader[]
+	 * @return Loader
 	 */
 	public static function getInstance() : Loader {
 		if(self::$pluginLogger === null){
